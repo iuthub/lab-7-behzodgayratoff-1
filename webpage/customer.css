@@ -1,0 +1,33 @@
+.container {
+    margin: 20px auto;
+    max-width: 50em;
+    font-family: Arial, sans-serif;
+}
+.add, .customers {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid grey;
+}
+dl {
+    margin: 0;
+}
+dt {
+    float: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.customers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.customer {
+    margin: 10px;
+    padding: 20px 10px;
+    width: 200px;
+    border: 1px dashed lightgrey;
+}
+form, h2 {
+    text-align: center;
+    margin: 10px;
+}
